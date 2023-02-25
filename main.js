@@ -31,7 +31,7 @@ inputButton.addEventListener("click", function(){
 // for loop that logs out all the items in an array
 function render(Leads){
     let listItem = "";
-    for(i = 0; i < Leads.length; i++){
+    for( let i = 0; i < Leads.length; i++){
     let output = Leads[i];
     listItem += `
     <li>
